@@ -1,0 +1,7 @@
+[ERROR] 2021-12-04 22:01:43,877 - test_func関数にてエラー発生。エラー内容は下記のとおり。(logpractice.py)
+Traceback (most recent call last):
+  File "c:\Users\addre\dev\log_practice\logpractice.py", line 35, in <module>
+    test_func("ss")
+  File "c:\Users\addre\dev\log_practice\logpractice.py", line 33, in test_func
+    return num + 3
+TypeError: can only concatenate str (not "int") to str
